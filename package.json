@@ -1,6 +1,6 @@
 {
   "name": "transformer.js-date-to-unix-time",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "transformer conversion: js-date to unix-time",
   "main": "index.js",
   "transformer": "transformer.jsonld",
@@ -12,9 +12,10 @@
     "transformer-conversion"
   ],
   "dependencies": {
-    "dat-transformer": "~0.1.5",
-    "transformer.unix-time": "0.0.1",
-    "transformer.js-date": "0.0.1"
+    "transformer-conversion": "^0.1.2",
+    "transformer-test": "^0.1.0",
+    "transformer.js-date": "0.0.1",
+    "transformer.unix-time": "0.0.1"
   },
   "devDependencies": {},
   "repository": {
